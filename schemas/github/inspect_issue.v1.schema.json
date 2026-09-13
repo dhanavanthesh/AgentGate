@@ -1,0 +1,1 @@
+{"type":"object","properties":{"tool":{"type":"string","const":"github.inspect_issue"},"issue_handle":{"type":"string"}},"required":["tool","issue_handle"],"additionalProperties":false}
