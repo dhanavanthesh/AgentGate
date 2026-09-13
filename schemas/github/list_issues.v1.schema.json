@@ -1,0 +1,1 @@
+{"type":"object","properties":{"tool":{"type":"string","const":"github.list_issues"},"repository_handle":{"type":"string"}},"required":["tool","repository_handle"],"additionalProperties":false}
