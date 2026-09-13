@@ -1,0 +1,30 @@
+[package]
+name = "agentgate-core"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Offline constraint-aware tool execution boundary"
+build = "build.rs"
+
+[features]
+default = ["verified-provenance"]
+safe-query-eval = []
+verified-provenance = []
+
+[dependencies]
+getrandom.workspace = true
+maskforge-core.workspace = true
+oc-earley.workspace = true
+oc-sidememory.workspace = true
+serde.workspace = true
+serde-json.workspace = true
+sha2.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+proptest = "1"
+
+[[example]]
+name = "benchmark"
+path = "../../examples/benchmark.rs"
