@@ -1,0 +1,20 @@
+[package]
+name = "agentgate-eval"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+description = "Isolated AgentGate engine and catalog evaluator"
+build = "build.rs"
+
+[dependencies]
+agentgate-core.workspace = true
+maskforge-core.workspace = true
+oc-earley.workspace = true
+oc-sidememory.workspace = true
+serde.workspace = true
+serde-json.workspace = true
+
+[[bin]]
+name = "agentgate-eval"
+path = "src/main.rs"
