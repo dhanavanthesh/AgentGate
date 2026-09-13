@@ -1,0 +1,1 @@
+{"version":1,"objects":[{"schemaPath":"$","propertyOrder":["tool","issue_handle","body"],"captures":[],"relations":[{"targetProperty":"issue_handle","operator":"memberOf","import":"writable_issue_handles"}]}]}

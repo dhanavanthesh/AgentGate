@@ -1,0 +1,1 @@
+{"type":"object","properties":{"tool":{"type":"string","const":"github.comment_issue"},"issue_handle":{"type":"string"},"body":{"type":"string"}},"required":["tool","issue_handle","body"],"additionalProperties":false}
